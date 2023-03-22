@@ -1,2 +1,2 @@
 # solutio-test
-Um projeto de teste executado a fim de testar meus conhecimentos em PHP utilizando Laravel e suas funcionalidades.
+Um mini-projeto executado a fim de testar os conhecimentos em PHP utilizando Laravel e suas funcionalidades.
