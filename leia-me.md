@@ -1,5 +1,9 @@
 # Olá, bem vindo ao projeto Solutio, um pequeno projeto com intuito de mostrar todo conhecimento relacionado a linguagem PHP utilizando seu framework Laravel.
 
+# Sobre o projeto
+
+O projeto foi desenvolvido utilizando a linguagem PHP com seu framework mais renomado "Laravel" e suas funcionalidades, nossa parte de back-end está inteiramente em PHP utilizando as funcionalidades que o Laravel trás pro nosso uso, já a parte do front-end foi basicamente utilizando seu motor de renderização chamado de Blade que basicamente ele consegue ler códigos em HTML com algumas particularidades que o Laravel trás, podendo assim deixar o nosso projeto mais manutenível e de fácil implementação de novas funcionalidades.
+
 # Para rodar este projeto, há alguns requisitos que você precisa ter na sua máquina para rodá-lo.
 # Requisitos:
 
@@ -20,7 +24,10 @@ git clone https://github.com/daniloliveira-dev/solutio-test
 Ao clonar este projeto na sua máquina, você agora precisa instalar o Laravel utilizando o composer na sua máquina, executando o comando "composer install", ao fazer isso você estará instalando todas as dependências para conseguir executar o projeto.
 
 ## 3 Step:
-Depois de ter instalado todas as dependencias do projeto, você agora precisa configurá-lo, para configurar o projeto para rodar de forma correta localmente na máquina, é necessário configurar o arquivo .env colando o seguinte trecho de código dentro do arquivo.
+Depois de ter instalado todas as dependencias do projeto, você agora precisa configurá-lo, para configurar o projeto para rodar de forma correta localmente na máquina, é necessário criar e configurar o arquivo (.env), copie e cole o conteudo do (.env.example) no arquivo (.env) que será utilizado no projeto.
+
+feito isso, há um trecho que precisa ser alterado, para isso copie e cole o seguinte trecho de código dentro do arquivo para substituir.
+
 ```
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -31,11 +38,11 @@ Depois de ter instalado todas as dependencias do projeto, você agora precisa co
 ```
 
 ## 4 Step:
-Após ter configurado o .env, você já está com o projeto pré configurado em sua máquina, porém seu banco de dados local ainda não existe, para criá-lo de forma simples, você no próprio projeto do Laravel, consegue utilizar o seguinte comando:
+Após ter configurado o .env, você já está com o projeto pré configurado em sua máquina, porém seu banco de dados local ainda não existe, para criá-lo de forma simples, você primeiro precisa criar uma database dentro do MySQL Workbench com o nome "solutio" no próprio projeto do Laravel, consegue utilizar o seguinte comando:
 
 ## php artisan migrate
 
-Fazendo com que assim sejam criados os bancos utilizados em seu projeto, ou se for de sua preferência, estarei disponibilizando o arquivo .sql no git juntamente com o projeto.
+Fazendo com que assim sejam criados as tabelas que serão utilizadas em seu projeto, ou se for de sua preferência, estarei disponibilizando o arquivo .sql no git juntamente com o projeto que você só precisará importar o arquivo dentro do seu MySQL Workbench.
 
 ## 5 Step:
 Depois de ter configurado o banco de dados, seu projeto está pronto para rodar na máquina de forma local, como testar?
