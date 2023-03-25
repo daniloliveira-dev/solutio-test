@@ -1,0 +1,49 @@
+body {
+
+    background-color: whitesmoke;
+}
+
+#titulo {
+
+    margin-top: 60px;
+    color: gray;
+    text-align: center;
+    justify-items: auto;
+}
+
+#edit-button {
+
+    float: left;
+    margin-right: 12px;
+}
+
+#logout {
+
+    margin-top: 15px;
+    color: whitesmoke;
+    background: gray;
+    font-size: 14px;
+    position: absolute;
+    border: 0;
+    top: 0px;
+    right: 12px;
+}
+
+#logout:hover{
+
+    background-color: #363737;
+}
+
+#new-user-button {
+
+    float: left;
+    margin-bottom: 12px;
+    color: white;
+    background-color: gray;
+    border: 0;
+}
+
+#new-user-button:hover {
+
+    background-color: #363737;
+}
