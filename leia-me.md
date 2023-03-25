@@ -4,7 +4,7 @@
 
 O projeto foi desenvolvido utilizando a linguagem PHP com seu framework mais renomado "Laravel" e suas funcionalidades, nossa parte de back-end está inteiramente em PHP utilizando as funcionalidades que o Laravel trás pro nosso uso, já a parte do front-end foi basicamente utilizando seu motor de renderização chamado de Blade que basicamente ele consegue ler códigos em HTML com algumas particularidades que o Laravel trás, podendo assim deixar o nosso projeto mais manutenível e de fácil implementação de novas funcionalidades.
 
-# Para rodar este projeto, há alguns requisitos que você precisa ter na sua máquina para rodá-lo.
+# Para rodar este projeto, há alguns requisitos que você precisa cumprir para rodá-lo.
 # Requisitos:
 
 Precisa ter o composer instalado na sua máquina.
